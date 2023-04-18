@@ -1,0 +1,28 @@
+﻿@page
+@model ToornamentWeb.Pages.LoginModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Login";
+}
+
+    <div class="login-box">
+  <h2>Login</h2>
+    <form method="post">
+        <div class="user-box">
+            <input asp-for="Email">
+            <span asp-validation-for="Email"></span>
+            <label asp-for="Email">Email</label>
+        </div>
+        <div class="user-box">
+            <input asp-for="Password" type="password">
+            <span asp-validation-for="Password"></span>
+            <label asp-for="Password">Password</label>
+            @Html.ValidationMessage("Invalid")
+        </div>
+        <input type="submit" class="login" value="Login">
+    </form>
+</div>
+
+@section Scripts{
+<partial name="_ValidationScriptsPartial" />
+}

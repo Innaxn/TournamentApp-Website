@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ToornamentWeb</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ToornamentWeb.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <!-- Navbar -->
+
+    <div class="navbar">
+        <div class="navbar-container">
+            <a class="logo" asp-page="/Index"><img id="logo" src="~/img/Toornament.png" height="75"></a>
+            <nav>
+                <ul class="menu">
+                    @if(User.Identity.IsAuthenticated)
+                    {
+                       <a class="koko" asp-area="" asp-page="/MyTournaments">My tournaments</a>
+                    }
+                    <a class="koko" asp-area="" asp-page="/AvailableTournaments">Available tournaments</a>
+                    <a class="koko" asp-area="" asp-page="/Passed">Finished tournaments</a>
+                    <a class="koko" asp-area="" asp-page="/On_going_tournaments">On going</a>
+                    @if(!User.Identity.IsAuthenticated)
+                    {
+                        <a class="koko" asp-area="" asp-page="/Register">Registration</a>
+                        <a class="koko" asp-area="" asp-page="/Login">Login</a>
+                    }
+                    
+
+                    @if(User.Identity.IsAuthenticated)
+                    {
+                        <a class="koko" asp-area="" asp-page="/Logout"> Logout</a>
+                    }
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- EndNavbar -->
+
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

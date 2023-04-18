@@ -1,0 +1,126 @@
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\appsettings.Development.json
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\appsettings.json
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ToornamentWeb.staticwebassets.runtime.json
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ToornamentWeb.exe
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ToornamentWeb.deps.json
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ToornamentWeb.runtimeconfig.json
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ToornamentWeb.dll
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ToornamentWeb.pdb
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.csproj.AssemblyReference.cache
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.GeneratedMSBuildEditorConfig.editorconfig
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.AssemblyInfoInputs.cache
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.AssemblyInfo.cs
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.csproj.CoreCompileInputs.cache
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.MvcApplicationPartsAssemblyInfo.cache
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.RazorAssemblyInfo.cache
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.RazorAssemblyInfo.cs
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\staticwebassets.build.json
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\staticwebassets.development.json
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\scopedcss\bundle\ToornamentWeb.styles.css
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\scopedcss\projectbundle\ToornamentWeb.bundle.scp.css
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.dll
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\refint\ToornamentWeb.dll
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.pdb
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.genruntimeconfig.cache
+D:\semester 2\SynthesisProject\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ref\ToornamentWeb.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.csproj.AssemblyReference.cache
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.AssemblyInfoInputs.cache
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.AssemblyInfo.cs
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.csproj.CoreCompileInputs.cache
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.RazorAssemblyInfo.cache
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.RazorAssemblyInfo.cs
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\refint\ToornamentWeb.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.pdb
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\appsettings.json
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ToornamentWeb.staticwebassets.runtime.json
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ToornamentWeb.exe
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ToornamentWeb.deps.json
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ToornamentWeb.runtimeconfig.json
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ToornamentWeb.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ToornamentWeb.pdb
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ClassLibrary.dll
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ClassLibrary.pdb
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\scopedcss\bundle\ToornamentWeb.styles.css
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\scopedcss\projectbundle\ToornamentWeb.bundle.scp.css
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.csproj.CopyComplete
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.genruntimeconfig.cache
+C:\Users\Ivana\Desktop\mysuffering\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ref\ToornamentWeb.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.csproj.AssemblyReference.cache
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.AssemblyInfoInputs.cache
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.AssemblyInfo.cs
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.csproj.CoreCompileInputs.cache
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.RazorAssemblyInfo.cache
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.RazorAssemblyInfo.cs
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\refint\ToornamentWeb.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.pdb
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\appsettings.json
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ToornamentWeb.staticwebassets.runtime.json
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ToornamentWeb.exe
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ToornamentWeb.deps.json
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ToornamentWeb.runtimeconfig.json
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ToornamentWeb.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ToornamentWeb.pdb
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ClassLibrary.dll
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\bin\Debug\net6.0\ClassLibrary.pdb
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\scopedcss\bundle\ToornamentWeb.styles.css
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\scopedcss\projectbundle\ToornamentWeb.bundle.scp.css
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.csproj.CopyComplete
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ToornamentWeb.genruntimeconfig.cache
+C:\Users\Ivana\Desktop\refactoring\synthesis\ToornamentApp\ToornamentWeb\obj\Debug\net6.0\ref\ToornamentWeb.dll

@@ -1,0 +1,146 @@
+﻿@page "tournamentsinfotmation {tournamentid:double}"
+@using ClassLibrary.Entities
+@using ClassLibrary.enumerators
+@model ToornamentWeb.Pages.ViewInfoPassedModel
+@{
+}
+
+<div class="tuti">
+
+    <h1>Tournament:@Model.t.SportType.GetName();</h1>
+    <div class="details">
+        <h5>Location: @Model.t.City - @Model.t.Address</h5>
+        <h5> Dates: @Model.t.StartDate.ToShortDateString() - @Model.t.EndDate.ToShortDateString()</h5>
+        <h5> Participants: @Model.signedPlayers</h5>
+        <h5> Description: @Model.t.Description</h5>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <h1>Games:</h1>
+
+    <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+            @foreach (var item in Model.players)
+            {
+                <a asp-page="/ViewInfoPassed" asp-page-handler="GamesByPlayer" asp-route-tournamentid=@Model.tournamentid asp-route-playerId=@item.Id>@item.Username</a>
+            }
+        </div>
+    </div>
+    <div class="games">
+        @foreach (var item in Model.games)
+        {
+            if (item is GameBadminton)
+            {
+                <article class="Tournamentgame">
+                    <h2>Game winner: @item.Winner</h2>
+                    <p>@item.Player1<br> @item.Player2:<br>Points: @item.ParticipantOnePoints, @item.ParticipantTwoPoints </p>
+                </article>
+            }
+            else if (item is GameBoxing)
+            {
+                GameBoxing game = (GameBoxing)item;
+                <article class="Tournamentgame">
+                    <h2>Game winner: @game.Winner</h2>
+                    <h2>Way of winning: @game.Way</h2>
+                    <p>@item.Player1<br> @game.Player2:<br>Points: @game.ParticipantOnePoints, @game.ParticipantTwoPoints </p>
+                </article>
+            }
+        }
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <h1> Leaderboard</h1>
+    <div class="containerLeader">
+        <div class="leaderboard">
+            <div class="leaderboard--header">
+                <div class="leaderboard--item">
+
+                    <div class="leaderboard--item--cell leaderboard--item--cell__rank">
+                        <h3>Rank</h3>
+                    </div>
+                    <div class="leaderboard--item--cell leaderboard--item--cell__user">
+                        <h3>Player</h3>
+                    </div>
+                    <div class="leaderboard--item--cell leaderboard--item--cell__thirty">
+                        <h3>Wins</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="leaderboard--list">
+                @for (int i = 0; i < Model.leader.Item1.Count; i++)
+                {
+                    <div class="leaderboard--item">
+                        <div class="leaderboard--item--cell leaderboard--item--cell__rank">
+                            @Model.AddOne(i)
+                        </div>
+                        <div class="leaderboard--item--cell leaderboard--item--cell__user">
+                            @Model.leader.Item1[i].FirstName @Model.leader.Item1[i].LastName
+                        </div>
+                        <div class="leaderboard--item--cell leaderboard--item--cell__thirty">
+                            @Model.leader.Item2[i]
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <hr>
+    <br>
+    <br>
+
+    @if (@Model.t.Status == TournamentStatus.FINISHED)
+    {
+        <div class="artboard">
+            <div class="app-container">
+                <div class="app-title">
+                    Winner board
+                </div>
+                <div class="app-table">
+                    <div class="column_player">
+                        Player
+                    </div>
+                    <div class="column-wins">
+                        Wins
+                    </div>
+                </div>
+
+                @for (int i = 0; i < 3; i++)
+                {
+                    <div class="app-row">
+                        <div class="player">
+                            <div class="ranki">
+                                @Model.AddOne(i)
+                            </div>
+                            @if (i == 0)
+                            {
+                                <div class="imagee">
+                                    <img src="~/img/11.png" height=50px;>
+                                </div>
+                            }
+                            else if (i == 1)
+                            {
+                                <div class="imagee">
+                                    <img src="~/img/2.png" height=50px>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="imagee">
+                                    <img src="~/img/3.png" height=50px;>
+                                </div>
+                            }
+                            <div class="name">@Model.leader.Item1[i].FirstName @Model.leader.Item1[i].LastName</div>
+                            <div class="goals"> @Model.leader.Item2[i]</div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+    }
+</div>

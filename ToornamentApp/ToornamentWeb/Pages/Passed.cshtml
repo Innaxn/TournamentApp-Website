@@ -1,0 +1,23 @@
+﻿@page
+@using ClassLibrary.Entities
+@model ToornamentWeb.Pages.PassedModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Finished Tournament";
+}
+<div id="grid_container">
+        <div id="sub_nav_container"></div>
+        <div id="content_container">
+          <section id="content_container">
+            @foreach (TournamentRoundRobin t in Model.Tournaments)
+            {
+                <div class="student_card">
+                <h2>Tournament: @t.SportType.GetName()</h2>
+                <p>Start date:@t.StartDate.ToShortDateString()<br> Location:@t.City<br> participants: @Model.signed/@t.MaxParticipants</p>
+                <a asp-page="/ViewInfoPassed" asp-route-tournamentid=@t.Id class="register">View details</a>
+                </div>
+            }
+          </section>
+        </div>
+        <div id="sidebar_container"></div>
+</div>

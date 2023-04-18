@@ -1,0 +1,535 @@
+/*WELCOMEPAGE*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 2.0;
+    background-color: #7FCDC6;
+}
+
+.navbar {
+    background-color: #7FCDC6;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+
+nav .koko {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+    nav .koko,
+    nav .koko:after,
+    nav .koko:before {
+        transition: all .5s;
+    }
+
+nav a:hover {
+    color: white;
+}
+
+.kote {
+    background-image: url(/img/1.png);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.showcase-text {
+    position: absolute;
+    left: 25%;
+    bottom: 17%;
+}
+
+    .showcase-text .btnSignUp {
+        background-color: #0C5478;
+        color: white;
+        padding: 19px 50px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 29px;
+        font-size: 128%
+    }
+/*ENDWELCOME*/
+
+/*Registration*/
+.container {
+    max-width: 700px;
+    width: 100%;
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: 450px;
+    right: 0;
+    bottom: 50px;
+}
+
+    .container .title {
+        font-size: 25px;
+        font-weight: 500;
+        position: relative;
+    }
+
+.content .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+.user-details .input-box {
+    margin-bottom: 15px;
+    width: 45%;
+}
+
+.input-box span.details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+.button {
+    height: 45px;
+    margin: 35px 0
+}
+
+    .button input {
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        background: #7FCDC6;
+    }
+
+        .button input:hover {
+            background: #D8C3A5;
+        }
+/*Endregistration*/
+/*login*/
+/*LOGIN*/
+.login-box {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    width: 500px;
+    height: 550px;
+    padding: 50px;
+    transform: translate(-50%, -50%);
+    background: #5d6d78;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgb(0 0 0 / 60%);
+    border-radius: 10px;
+}
+
+    .login-box h2 { /*logo*/
+        margin: 0 0 30px;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+    }
+
+    .login-box .user-box {
+        position: relative;
+    }
+
+        .login-box .user-box input {
+            width: 100%;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            margin-bottom: 30px;
+            border: none;
+            border-bottom: 1px solid #fff;
+            outline: none;
+            background: transparent;
+        }
+
+        .login-box .user-box label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            pointer-events: none;
+            transition: .5s;
+        }
+
+        .login-box .user-box input:focus ~ label,
+        .login-box .user-box input:valid ~ label {
+            top: -20px;
+            left: 0;
+            color: #7FCDC6;
+            font-size: 12px;
+        }
+
+    .login-box .login {
+        position: relative;
+        left: 35%;
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: .5s;
+        margin-top: 40px;
+        letter-spacing: 4px
+    }
+
+    .login-box .login:hover {
+        background: #7FCDC6;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #7FCDC6, 0 0 25px #7FCDC6, 0 0 50px #7FCDC6, 0 0 100px #7FCDC6;
+    }
+
+    /*loginend*/
+
+    /*Available tournaments*/
+#grid_container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 100px auto 50px;
+    grid-template-columns: 150px auto 100px;
+}
+
+#content_container {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.student_card {
+    border: 1px solid #2a9d8f;
+    border-radius: 15px;
+    width: 225px;
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 15px;
+}
+
+    .student_card a {
+        color: #264653;
+        font-weight: bold;
+        font-style: normal;
+    }
+    /*End available tournaments*/
+    /*leaderboard*/
+.containerLeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 8rem;
+}
+
+.leaderboard {
+    width: 1500px;
+    box-shadow: 1px 1px 8px 0 #cccccc;
+    background: #ffffff;
+    color: #555555;
+}
+
+.leaderboard--header {
+    width: 100%;
+    height: 4rem;
+    font-size: 25px;
+    background: black;
+    color: #eef;
+}
+
+.leaderboard--item {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+    align-items: center;
+    border-bottom: 1px solid #cccccf;
+}
+
+.leaderboard--item--cell {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.leaderboard--item--cell__rank {
+    width: 12%;
+}
+
+.leaderboard--item--cell__user {
+    flex-grow: 1;
+}
+
+.leaderboard--item--cell__thirty {
+    width: 25%;
+}
+
+.leaderboard--item--cell__alltime {
+    width: 25%;
+}
+    /*Endleaderboard*/
+    /*TournamentInfoForAvailableTournaments*/
+.containerTournamentt {
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    border: 1px solid #2a9d8f;
+    border-radius: 15px;
+    width: 725px;
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 15px;
+}
+
+.register {
+    background-color: #376a28b0;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+/*EndTournamentInfoForAvailableTournaments*/
+/*Passed*/
+.games {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+}
+
+.Tournamentgame {
+    border: 1px solid #2a9d8f;
+    border-radius: 15px;
+    width: 225px;
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 15px;
+    background-color: white;
+}
+
+    .Tournamentgame a {
+        color: #264653;
+        font-weight: bold;
+        font-style: normal;
+    }
+
+.tuti {
+    margin: 20px;
+}
+
+.containerLeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.leaderboard {
+    width: 1500px;
+    box-shadow: 1px 1px 8px 0 #cccccc;
+    background: #ffffff;
+    color: #555555;
+}
+
+.leaderboard--header {
+    width: 100%;
+    height: 4rem;
+    font-size: 25px;
+    background: black;
+    color: #eef;
+}
+
+.leaderboard--item {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+    align-items: center;
+    border-bottom: 1px solid #cccccf;
+}
+
+.leaderboard--item--cell {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.leaderboard--item--cell__rank {
+    width: 12%;
+}
+
+.leaderboard--item--cell__user {
+    flex-grow: 1;
+}
+
+.leaderboard--item--cell__thirty {
+    width: 25%;
+}
+
+.leaderboard--item--cell__alltime {
+    width: 25%;
+}
+/*EndPassed*/
+/*DROPMENU*/
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    left: 90%;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown-content a:hover {
+            background-color: lightgrey;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: black;
+}
+/*ENDDROP*/
+span{
+    color:red;
+}
+/*top*/
+.artboard {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.app-container {
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.app-title {
+    font-size: 35px;
+    position: relative;
+    left: 150px;;
+    margin-top: 20px;
+}
+
+
+.app-header {
+  
+}
+.column_player {
+    position: relative;
+    left: 170px;
+    top: 27px;
+}
+.column-wins {
+    position: relative;
+    left: 450px;
+}
+.app-row {
+    padding: 6px 41px 6px 41px;
+    border-bottom: 1px solid #F6F6FA;
+}
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.ranki {
+    width: 57px;
+    color: #D9F2F5;
+    font-size: 60px;
+}
+
+.imagee {
+    height: 57px;
+}
+
+.name {
+    width: 245px;
+    margin-left: 30px;
+}
+
+.goals {
+    width: 50px;
+    text-align: center;
+}
+
+/*endtop*/

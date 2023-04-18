@@ -1,0 +1,38 @@
+﻿@page "tournamentsinfotmation {tournamentid:double}"
+@model ToornamentWeb.Pages.TournamentViewModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Tournament";
+}
+
+<div class="containerTournamentt">
+    <form method="post">
+        <h1>
+            Tournament: @Model.t.SportType.GetName()<h1>
+                <p>
+                    start date:@Model.t.StartDate.ToShortDateString() &nbsp end date: @Model.t.EndDate.ToShortDateString()<br> participants: @Model.count &nbsp from minimum: @Model.t.MinParticipants maximum: @Model.t.MaxParticipants <br>
+                    Location: &nbsp city: @Model.t.City <br> address:@Model.t.Address <br> desctription:@Model.t.Description<br> Status: @Model.t.Status <br> Deadline: @Model.deadline.ToShortDateString() <br>
+                </p>
+                @if (!Model.isSigned || !User.Identity.IsAuthenticated)
+                {
+                    if (Model.count == Model.t.MaxParticipants)
+                    {
+                        <p>There are no places left</p>
+                    }
+                    else if (@Model.IsDeadlineReached)
+                    {
+                         <p>The tournament is cancelled</p>
+                    }
+                    else
+                    {
+                        <input class= "register" type="submit" value="Register"/>
+                    }
+                }
+                else
+                {
+                    <p>You are registered for the tournament</p>
+                }
+                
+    </form>
+
+</div>

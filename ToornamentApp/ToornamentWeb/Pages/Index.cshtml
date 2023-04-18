@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Home page";
+}
+
+<div class="kote">
+
+<div class="showcase-text">
+        @if (!User.Identity.IsAuthenticated)
+        {
+         <a asp-page="/Register" class="btnSignUp">Sign up for free</a>
+        }
+            </div>
+</div>

@@ -1,0 +1,62 @@
+﻿@page
+@model ToornamentWeb.Pages.RegisterModel
+@{
+   Layout = "_Layout";
+   ViewData["Title"] = "Registration";
+}
+
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <label asp-for="FirstName">First Name</label>
+            <span class="details" asp-validation-for="FirstName"></span>
+            <input asp-for="FirstName" type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <label asp-for="LastName">Last Name</label>
+            <span asp-validation-for="LastName" class="details"></span>
+            <input asp-for="LastName" type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <label asp-for="Username">Username</label>
+            @Html.ValidationMessage("Unique username")
+            <span asp-validation-for="Username" class="details"></span>
+            <input asp-for="Username" type="text" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <label asp-for="Email">Email</label>
+            @Html.ValidationMessage("Unique email")
+            @Html.ValidationMessage("Unique emailaddress")
+            <span asp-validation-for="Email" class="details"></span>
+            <input asp-for="Email" type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <label asp-for="PhoneNumber">Phone number</label>
+            @Html.ValidationMessage("Unique phone")
+            <span asp-validation-for="PhoneNumber" class="details"></span>
+            <input asp-for="PhoneNumber" type="text" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <label asp-for="Password">Password</label>
+            <span asp-validation-for="Password" class="details"></span>
+            <input asp-for="Password" type="password" placeholder="Enter your password" required>
+          </div>
+          <div class="input-box">
+            <label asp-for="ConfirmPassword">Confirm password</label>
+            <span asp-validation-for="ConfirmPassword" class="details"></span>
+            <input asp-for="ConfirmPassword" type="password" placeholder="Confirm your password" required>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  @section Scripts{
+        <partial name= "_ValidationScriptsPartial"/>
+    }

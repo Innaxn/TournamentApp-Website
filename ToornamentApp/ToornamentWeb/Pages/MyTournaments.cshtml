@@ -1,0 +1,32 @@
+﻿@page
+@using ClassLibrary.Entities
+@model ToornamentWeb.Pages.MyTournamentsModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "My Tournaments";
+}
+
+<div id="grid_container">
+    <div id="sub_nav_container"></div>
+    <div id="content_container">
+        <div id="content_container">
+            @if (Model.Tournaments.Count != 0)
+            {
+                foreach (TournamentRoundRobin t in Model.Tournaments)
+                {
+                    <div class="student_card">
+                    <a class="link" asp-page="/ViewInfoPassed" asp-route-tournamentid=@t.Id>Tournament: @t.SportType.GetName()</a>
+                    <p>Start date:@t.StartDate.ToShortDateString()<br> Location:@t.City<br> participants: min:@t.MinParticipants/max:@t.MaxParticipants <br /> Status: @t.Status</p>
+                    <a asp-page="/ViewInfoPassed" asp-route-tournamentid=@t.Id class="register">View details</a>
+                    </div>
+                }
+            }
+            else
+            {
+                <img id="sad" src="~/img/sad.png" height="350">
+            }
+        </div>
+    </div>
+    <div id="sidebar_container"></div>
+</div>
+
